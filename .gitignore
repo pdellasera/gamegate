@@ -1,0 +1,27 @@
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.DS_Store
+
+# Blender render tooling (heavy / generated)
+.blender-venv/
+assets/mapa_estadio.glb
+tools/_*.log
+tools/_render_done.txt
+
+# Vercel
+.vercel
+.env*
+
+# Imágenes de referencia de diseño (solo locales, no las usa la app)
+assets/Example.png
+assets/label_example.png
+assets/Evento_sreen.png
+assets/login_screen.png
+assets/estadio-3d.png
+assets/logo.png
+assets/logo_white.png
+assets/sidebar_background.png
+assets/mapa de estadio.png

@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  /* Superficies oscuras (header / sidebar) */
+  --color-ink-950: #081522;
+  --color-ink-900: #0c1927;
+  --color-ink-800: #1b2e41;
+  --color-ink-700: #26384f;
+
+  /* Marca azure */
+  --color-brand-50: #ebf3fc;
+  --color-brand-100: #d6effe;
+  --color-brand-200: #62aeff;
+  --color-brand-400: #2f83ff;
+  --color-brand-500: #0b6bff;
+  --color-brand-600: #0068ff;
+  --color-brand-700: #0055d6;
+
+  /* Zonas del estadio */
+  --color-zone-oriental: #16a34a;
+  --color-zone-norte: #0b6bff;
+  --color-zone-sur: #e64244;
+  --color-zone-occidental: #fbb61b;
+  --color-zone-vip: #a855f7;
+  --color-pitch: #1b8126;
+  --color-pitch-dark: #15681e;
+  --color-bowl: #eef1f6;
+  --color-bowl-strong: #d4dae3;
+
+  /* Cajas / superficies claras */
+  --color-page: #f3f8fd;
+  --color-backdrop: #374151;
+  --color-total-bg: #ebf3fc;
+  --color-total-fg: #123a7a;
+  --color-change-bg: #e6f7f2;
+  --color-change-fg: #0f6b4f;
+  --color-system-bg: #edf9f5;
+  --color-system-bd: #b7e6d4;
+
+  --radius-card: 0.875rem;
+  --radius-ctl: 0.625rem;
+  --radius-seat: 0.3125rem;
+
+  --shadow-card: 0 1px 2px 0 rgb(15 23 42 / 0.04), 0 1px 3px 0 rgb(15 23 42 / 0.06);
+  --shadow-pop: 0 12px 32px -10px rgb(15 23 42 / 0.22);
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    background-color: var(--color-page);
+    color: #0f172a;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
+}
