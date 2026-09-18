@@ -62,9 +62,13 @@ export function FormularioLogin() {
         error={errorCampo === 'codigo'}
       />
 
+      <p className="mt-2 text-[12px] leading-[16px] text-[#8a94a7]">
+        Código demo: <span className="font-semibold text-brand-600">1001</span>
+      </p>
+
       <label
         htmlFor="taquilla"
-        className="mt-[29px] block text-[15px] font-semibold leading-[18px] text-[#0f172a]"
+        className="mt-[14px] block text-[15px] font-semibold leading-[18px] text-[#0f172a]"
       >
         Taquilla
       </label>
